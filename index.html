@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#e1d6c3" />
+
+    <!-- normalize css -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
+    />
+    <!-- my css -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="description" content="Quik Juicer. The quicker juicer." />
+
+    <title>Quik Juicer</title>
+  </head>
+  <body>
+    <main class="main-container">
+      <header class="spacer title-block">
+        <h1 class="title-text">Quik Juicer</h1>
+      </header>
+      <div class="content-container">
+        <img src="assets/juicer.png" alt="juicer" class="juicer" />
+        <div class="color-list-container">
+          <div class="arrow-container">
+            <div class="arrow-stem"></div>
+            <div class="arrow-head"></div>
+            <p class="arrow-text">Choose your color</p>
+          </div>
+          <ul class="color-list">
+            <li class="color-list-item">
+              <div class="dot light-blue grower"></div>
+            </li>
+            <li class="color-list-item">
+              <div class="dot red grower"></div>
+            </li>
+            <li class="color-list-item">
+              <div class="dot blue grower"></div>
+            </li>
+            <li class="color-list-item">
+              <div class="dot green grower"></div>
+            </li>
+            <li class="color-list-item">
+              <div class="dot yellow grower"></div>
+            </li>
+          </ul>
+        </div>
+        <button class="add-button grower">Add to Cart</button>
+      </div>
+      <div class="spacer"></div>
+    </main>
+  </body>
+</html>

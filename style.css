@@ -1,0 +1,142 @@
+body {
+  background-color: #e19033;
+  height: 100dvh;
+  width: 100dvw;
+  font-family: "Reddit Mono", monospace;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  height: 100%;
+  width: 100%;
+}
+
+.title-block {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 20px;
+}
+
+.title-text {
+  font-size: 4em;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.juicer {
+  max-height: 250px;
+}
+
+.color-list-container {
+  position: relative;
+}
+
+.arrow-container {
+  position: absolute;
+  top: 14%;
+  left: -205px;
+  z-index: 999;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  filter: drop-shadow(0 0 0.15rem);
+}
+
+.arrow-stem {
+  width: 150px;
+  height: 25px;
+  z-index: 99999;
+  background-color: #b7b7b7;
+}
+
+.arrow-head {
+  width: 25px;
+  height: 50px;
+  border-left: 50px solid #b7b7b7;
+  border-bottom: 25px solid transparent;
+  border-top: 25px solid transparent;
+}
+
+.arrow-text {
+  position: absolute;
+  z-index: 99999;
+  left: 10%;
+}
+
+.color-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 0;
+  list-style-type: none;
+}
+
+.color-list-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dot {
+  min-height: 35px;
+  min-width: 35px;
+  max-height: 100px;
+  max-width: 100px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.add-button {
+  background-color: #75b6f2;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.grower:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(0 0 0.35rem);
+}
+
+.light-blue {
+  background-color: #75b6f2;
+  color: #75b6f2;
+}
+
+.red {
+  background-color: #cb573a;
+  color: #cb573a;
+}
+
+.blue {
+  background-color: #3a4ced;
+  color: #3a4ced;
+}
+
+.green {
+  background-color: #77b961;
+  color: #77b961;
+}
+
+.yellow {
+  background-color: #e9cc4c;
+  color: #e9cc4c;
+}
+
+.spacer {
+  flex: 1;
+}
